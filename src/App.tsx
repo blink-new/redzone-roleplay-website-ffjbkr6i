@@ -1,4 +1,4 @@
-import { Crown, Settings, Shield, Users, ExternalLink, MessageCircle } from 'lucide-react'
+import { Crown, Settings, Shield, Users, ExternalLink } from 'lucide-react'
 import { Card, CardContent } from './components/ui/card'
 import { Button } from './components/ui/button'
 import { motion } from 'framer-motion'
@@ -72,7 +72,6 @@ function App() {
               rel="noopener noreferrer"
               className="text-white hover:text-red-400 font-semibold transition-colors flex items-center gap-2"
             >
-              <MessageCircle className="w-4 h-4" />
               دخول الديسكورد
             </a>
           </div>
@@ -230,7 +229,6 @@ function App() {
                       rel="noopener noreferrer"
                       className="flex items-center gap-3"
                     >
-                      <MessageCircle className="w-6 h-6" />
                       فتح تذكرة عبر Discord
                       <ExternalLink className="w-4 h-4" />
                     </a>
